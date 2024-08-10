@@ -8,5 +8,5 @@ plr.Chatted:Connect(function(msg)
     end
 end)
 game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(state)
-    queueonteleport("loadstring(game:HttpGet(''))()")
+    queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/uksfx/scripts/main/teleport.lua'))()")
 end)
