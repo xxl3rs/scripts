@@ -102,5 +102,5 @@ ThemeManager:ApplyToTab(Tabs['UI Settings'])
 
 SaveManager:LoadAutoloadConfig()
 queueonteleport([[
-loadstring(game:HttpGet(""))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xxl3rs/scripts/refs/heads/main/teleport.lua"))()
 ]])
