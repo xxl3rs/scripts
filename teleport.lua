@@ -1,3 +1,4 @@
+if not game:IsLoaded() then game.Loaded:Wait() end
 local repo = 'https://raw.githubusercontent.com/xxl3rs/mainlib/main/'
 
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
